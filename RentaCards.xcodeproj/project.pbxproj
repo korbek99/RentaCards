@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90887BA2CB1FD9F00DB2226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887B92CB1FD9F00DB2226 /* AppDelegate.swift */; };
+		D90887BC2CB1FD9F00DB2226 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887BB2CB1FD9F00DB2226 /* SceneDelegate.swift */; };
+		D90887BE2CB1FD9F00DB2226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887BD2CB1FD9F00DB2226 /* ViewController.swift */; };
+		D90887C12CB1FD9F00DB2226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90887BF2CB1FD9F00DB2226 /* Main.storyboard */; };
+		D90887C42CB1FD9F00DB2226 /* RentaCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D90887C22CB1FD9F00DB2226 /* RentaCards.xcdatamodeld */; };
+		D90887C62CB1FDA100DB2226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90887C52CB1FDA100DB2226 /* Assets.xcassets */; };
+		D90887C92CB1FDA100DB2226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90887C72CB1FDA100DB2226 /* LaunchScreen.storyboard */; };
+		D90887D42CB1FDA100DB2226 /* RentaCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887D32CB1FDA100DB2226 /* RentaCardsTests.swift */; };
+		D90887DE2CB1FDA100DB2226 /* RentaCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887DD2CB1FDA100DB2226 /* RentaCardsUITests.swift */; };
+		D90887E02CB1FDA100DB2226 /* RentaCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887DF2CB1FDA100DB2226 /* RentaCardsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D90887D02CB1FDA100DB2226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90887AE2CB1FD9F00DB2226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90887B52CB1FD9F00DB2226;
+			remoteInfo = RentaCards;
+		};
+		D90887DA2CB1FDA100DB2226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90887AE2CB1FD9F00DB2226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90887B52CB1FD9F00DB2226;
+			remoteInfo = RentaCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D90887B62CB1FD9F00DB2226 /* RentaCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentaCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90887B92CB1FD9F00DB2226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D90887BB2CB1FD9F00DB2226 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D90887BD2CB1FD9F00DB2226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D90887C02CB1FD9F00DB2226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D90887C32CB1FD9F00DB2226 /* RentaCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RentaCards.xcdatamodel; sourceTree = "<group>"; };
+		D90887C52CB1FDA100DB2226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D90887C82CB1FDA100DB2226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D90887CA2CB1FDA100DB2226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90887CF2CB1FDA100DB2226 /* RentaCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentaCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90887D32CB1FDA100DB2226 /* RentaCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentaCardsTests.swift; sourceTree = "<group>"; };
+		D90887D92CB1FDA100DB2226 /* RentaCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentaCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90887DD2CB1FDA100DB2226 /* RentaCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentaCardsUITests.swift; sourceTree = "<group>"; };
+		D90887DF2CB1FDA100DB2226 /* RentaCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentaCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90887B32CB1FD9F00DB2226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90887CC2CB1FDA100DB2226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90887D62CB1FDA100DB2226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90887AD2CB1FD9F00DB2226 = {
+			isa = PBXGroup;
+			children = (
+				D90887B82CB1FD9F00DB2226 /* RentaCards */,
+				D90887D22CB1FDA100DB2226 /* RentaCardsTests */,
+				D90887DC2CB1FDA100DB2226 /* RentaCardsUITests */,
+				D90887B72CB1FD9F00DB2226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90887B72CB1FD9F00DB2226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90887B62CB1FD9F00DB2226 /* RentaCards.app */,
+				D90887CF2CB1FDA100DB2226 /* RentaCardsTests.xctest */,
+				D90887D92CB1FDA100DB2226 /* RentaCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90887B82CB1FD9F00DB2226 /* RentaCards */ = {
+			isa = PBXGroup;
+			children = (
+				D90887B92CB1FD9F00DB2226 /* AppDelegate.swift */,
+				D90887BB2CB1FD9F00DB2226 /* SceneDelegate.swift */,
+				D90887BD2CB1FD9F00DB2226 /* ViewController.swift */,
+				D90887BF2CB1FD9F00DB2226 /* Main.storyboard */,
+				D90887C52CB1FDA100DB2226 /* Assets.xcassets */,
+				D90887C72CB1FDA100DB2226 /* LaunchScreen.storyboard */,
+				D90887CA2CB1FDA100DB2226 /* Info.plist */,
+				D90887C22CB1FD9F00DB2226 /* RentaCards.xcdatamodeld */,
+			);
+			path = RentaCards;
+			sourceTree = "<group>";
+		};
+		D90887D22CB1FDA100DB2226 /* RentaCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D90887D32CB1FDA100DB2226 /* RentaCardsTests.swift */,
+			);
+			path = RentaCardsTests;
+			sourceTree = "<group>";
+		};
+		D90887DC2CB1FDA100DB2226 /* RentaCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D90887DD2CB1FDA100DB2226 /* RentaCardsUITests.swift */,
+				D90887DF2CB1FDA100DB2226 /* RentaCardsUITestsLaunchTests.swift */,
+			);
+			path = RentaCardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90887B52CB1FD9F00DB2226 /* RentaCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90887E32CB1FDA100DB2226 /* Build configuration list for PBXNativeTarget "RentaCards" */;
+			buildPhases = (
+				D90887B22CB1FD9F00DB2226 /* Sources */,
+				D90887B32CB1FD9F00DB2226 /* Frameworks */,
+				D90887B42CB1FD9F00DB2226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RentaCards;
+			productName = RentaCards;
+			productReference = D90887B62CB1FD9F00DB2226 /* RentaCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D90887CE2CB1FDA100DB2226 /* RentaCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90887E62CB1FDA100DB2226 /* Build configuration list for PBXNativeTarget "RentaCardsTests" */;
+			buildPhases = (
+				D90887CB2CB1FDA100DB2226 /* Sources */,
+				D90887CC2CB1FDA100DB2226 /* Frameworks */,
+				D90887CD2CB1FDA100DB2226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90887D12CB1FDA100DB2226 /* PBXTargetDependency */,
+			);
+			name = RentaCardsTests;
+			productName = RentaCardsTests;
+			productReference = D90887CF2CB1FDA100DB2226 /* RentaCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D90887D82CB1FDA100DB2226 /* RentaCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90887E92CB1FDA100DB2226 /* Build configuration list for PBXNativeTarget "RentaCardsUITests" */;
+			buildPhases = (
+				D90887D52CB1FDA100DB2226 /* Sources */,
+				D90887D62CB1FDA100DB2226 /* Frameworks */,
+				D90887D72CB1FDA100DB2226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90887DB2CB1FDA100DB2226 /* PBXTargetDependency */,
+			);
+			name = RentaCardsUITests;
+			productName = RentaCardsUITests;
+			productReference = D90887D92CB1FDA100DB2226 /* RentaCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90887AE2CB1FD9F00DB2226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D90887B52CB1FD9F00DB2226 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D90887CE2CB1FDA100DB2226 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D90887B52CB1FD9F00DB2226;
+					};
+					D90887D82CB1FDA100DB2226 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D90887B52CB1FD9F00DB2226;
+					};
+				};
+			};
+			buildConfigurationList = D90887B12CB1FD9F00DB2226 /* Build configuration list for PBXProject "RentaCards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D90887AD2CB1FD9F00DB2226;
+			productRefGroup = D90887B72CB1FD9F00DB2226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90887B52CB1FD9F00DB2226 /* RentaCards */,
+				D90887CE2CB1FDA100DB2226 /* RentaCardsTests */,
+				D90887D82CB1FDA100DB2226 /* RentaCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90887B42CB1FD9F00DB2226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90887C92CB1FDA100DB2226 /* LaunchScreen.storyboard in Resources */,
+				D90887C62CB1FDA100DB2226 /* Assets.xcassets in Resources */,
+				D90887C12CB1FD9F00DB2226 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90887CD2CB1FDA100DB2226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90887D72CB1FDA100DB2226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90887B22CB1FD9F00DB2226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90887BE2CB1FD9F00DB2226 /* ViewController.swift in Sources */,
+				D90887BA2CB1FD9F00DB2226 /* AppDelegate.swift in Sources */,
+				D90887C42CB1FD9F00DB2226 /* RentaCards.xcdatamodeld in Sources */,
+				D90887BC2CB1FD9F00DB2226 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90887CB2CB1FDA100DB2226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90887D42CB1FDA100DB2226 /* RentaCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90887D52CB1FDA100DB2226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90887DE2CB1FDA100DB2226 /* RentaCardsUITests.swift in Sources */,
+				D90887E02CB1FDA100DB2226 /* RentaCardsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D90887D12CB1FDA100DB2226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90887B52CB1FD9F00DB2226 /* RentaCards */;
+			targetProxy = D90887D02CB1FDA100DB2226 /* PBXContainerItemProxy */;
+		};
+		D90887DB2CB1FDA100DB2226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90887B52CB1FD9F00DB2226 /* RentaCards */;
+			targetProxy = D90887DA2CB1FDA100DB2226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D90887BF2CB1FD9F00DB2226 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90887C02CB1FD9F00DB2226 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D90887C72CB1FDA100DB2226 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90887C82CB1FDA100DB2226 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90887E12CB1FDA100DB2226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D90887E22CB1FDA100DB2226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D90887E42CB1FDA100DB2226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RentaCards/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.RentaCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D90887E52CB1FDA100DB2226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RentaCards/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.RentaCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D90887E72CB1FDA100DB2226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.RentaCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentaCards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RentaCards";
+			};
+			name = Debug;
+		};
+		D90887E82CB1FDA100DB2226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.RentaCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentaCards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RentaCards";
+			};
+			name = Release;
+		};
+		D90887EA2CB1FDA100DB2226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.RentaCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RentaCards;
+			};
+			name = Debug;
+		};
+		D90887EB2CB1FDA100DB2226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.RentaCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RentaCards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90887B12CB1FD9F00DB2226 /* Build configuration list for PBXProject "RentaCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90887E12CB1FDA100DB2226 /* Debug */,
+				D90887E22CB1FDA100DB2226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90887E32CB1FDA100DB2226 /* Build configuration list for PBXNativeTarget "RentaCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90887E42CB1FDA100DB2226 /* Debug */,
+				D90887E52CB1FDA100DB2226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90887E62CB1FDA100DB2226 /* Build configuration list for PBXNativeTarget "RentaCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90887E72CB1FDA100DB2226 /* Debug */,
+				D90887E82CB1FDA100DB2226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90887E92CB1FDA100DB2226 /* Build configuration list for PBXNativeTarget "RentaCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90887EA2CB1FDA100DB2226 /* Debug */,
+				D90887EB2CB1FDA100DB2226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D90887C22CB1FD9F00DB2226 /* RentaCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D90887C32CB1FD9F00DB2226 /* RentaCards.xcdatamodel */,
+			);
+			currentVersion = D90887C32CB1FD9F00DB2226 /* RentaCards.xcdatamodel */;
+			path = RentaCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D90887AE2CB1FD9F00DB2226 /* Project object */;
+}
