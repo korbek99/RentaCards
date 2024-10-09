@@ -183,6 +183,7 @@
 		D90887EE2CB1FE2D00DB2226 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D90888162CB6449800DB2226 /* Web */,
 				D908880D2CB222AD00DB2226 /* Pay */,
 				D908880A2CB2127A00DB2226 /* Map */,
 				D90887F32CB1FEA800DB2226 /* Reservation */,
@@ -278,10 +279,25 @@
 		D908880D2CB222AD00DB2226 /* Pay */ = {
 			isa = PBXGroup;
 			children = (
+				D90888172CB6458000DB2226 /* Cell */,
 				D908880E2CB222BE00DB2226 /* PaymentViewController.swift */,
-				D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */,
 			);
 			path = Pay;
+			sourceTree = "<group>";
+		};
+		D90888162CB6449800DB2226 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		D90888172CB6458000DB2226 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -25,8 +25,7 @@ class PaymentMethodCell: UICollectionViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(label)
         label.textAlignment = .center
-        
-        // Constraints
+   
         NSLayoutConstraint.activate([
             label.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
             label.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
