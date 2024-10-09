@@ -28,6 +28,7 @@
 		D90888092CB20E9200DB2226 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888082CB20E9200DB2226 /* Branch.swift */; };
 		D908880C2CB2129000DB2226 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908880B2CB2129000DB2226 /* MapViewController.swift */; };
 		D908880F2CB222BE00DB2226 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908880E2CB222BE00DB2226 /* PaymentViewController.swift */; };
+		D90888112CB62C1300DB2226 /* PaymentMethodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D90888082CB20E9200DB2226 /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
 		D908880B2CB2129000DB2226 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D908880E2CB222BE00DB2226 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				D908880E2CB222BE00DB2226 /* PaymentViewController.swift */,
+				D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */,
 			);
 			path = Pay;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90887FD2CB20D2B00DB2226 /* CarDetailViewController.swift in Sources */,
+				D90888112CB62C1300DB2226 /* PaymentMethodCell.swift in Sources */,
 				D90887BE2CB1FD9F00DB2226 /* HomeViewController.swift in Sources */,
 				D90887FF2CB20D6B00DB2226 /* ReservationViewController.swift in Sources */,
 				D90887FB2CB2084300DB2226 /* Customer.swift in Sources */,
