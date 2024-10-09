@@ -2,7 +2,7 @@
 //  PaymentMethodCell.swift
 //  RentaCards
 //
-//  Created by Jose Preatorian on 09-10-24.
+//  Created by Jose Preatorian on 09-10-19.
 //
 
 import UIKit
