@@ -31,6 +31,13 @@
 		D90888112CB62C1300DB2226 /* PaymentMethodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */; };
 		D90888132CB62E5400DB2226 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888122CB62E5400DB2226 /* Cards.swift */; };
 		D90888152CB63EF800DB2226 /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888142CB63EF800DB2226 /* CarViewModel.swift */; };
+		D908881A2CB737D400DB2226 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888192CB737D400DB2226 /* ImageCollectionViewCell.swift */; };
+		D908881C2CB737F500DB2226 /* FeaturedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908881B2CB737F500DB2226 /* FeaturedCollectionViewCell.swift */; };
+		D908881E2CB73CFE00DB2226 /* BranchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908881D2CB73CFE00DB2226 /* BranchViewModel.swift */; };
+		D90888202CB747BE00DB2226 /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908881F2CB747BE00DB2226 /* HomeDetailsViewController.swift */; };
+		D90888232CB748A100DB2226 /* UtilsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888222CB748A100DB2226 /* UtilsViews.swift */; };
+		D90888262CB749E200DB2226 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888252CB749E200DB2226 /* Router.swift */; };
+		D90888282CB74C6500DB2226 /* BranchDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888272CB74C6500DB2226 /* BranchDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +86,13 @@
 		D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCell.swift; sourceTree = "<group>"; };
 		D90888122CB62E5400DB2226 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		D90888142CB63EF800DB2226 /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
+		D90888192CB737D400DB2226 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		D908881B2CB737F500DB2226 /* FeaturedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCollectionViewCell.swift; sourceTree = "<group>"; };
+		D908881D2CB73CFE00DB2226 /* BranchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchViewModel.swift; sourceTree = "<group>"; };
+		D908881F2CB747BE00DB2226 /* HomeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailsViewController.swift; sourceTree = "<group>"; };
+		D90888222CB748A100DB2226 /* UtilsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsViews.swift; sourceTree = "<group>"; };
+		D90888252CB749E200DB2226 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D90888272CB74C6500DB2226 /* BranchDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				D90888142CB63EF800DB2226 /* CarViewModel.swift */,
+				D908881D2CB73CFE00DB2226 /* BranchViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -183,6 +198,8 @@
 		D90887EE2CB1FE2D00DB2226 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D90888242CB749C900DB2226 /* Router */,
+				D90888212CB7488B00DB2226 /* Utils */,
 				D90888162CB6449800DB2226 /* Web */,
 				D908880D2CB222AD00DB2226 /* Pay */,
 				D908880A2CB2127A00DB2226 /* Map */,
@@ -213,6 +230,7 @@
 		D90887F12CB1FE9300DB2226 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D90888182CB737B900DB2226 /* Details */,
 				D90887F52CB1FED900DB2226 /* Cells */,
 			);
 			path = Home;
@@ -248,6 +266,8 @@
 		D90887F52CB1FED900DB2226 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				D90888192CB737D400DB2226 /* ImageCollectionViewCell.swift */,
+				D908881B2CB737F500DB2226 /* FeaturedCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -298,6 +318,31 @@
 				D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		D90888182CB737B900DB2226 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D908881F2CB747BE00DB2226 /* HomeDetailsViewController.swift */,
+				D90888272CB74C6500DB2226 /* BranchDetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		D90888212CB7488B00DB2226 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D90888222CB748A100DB2226 /* UtilsViews.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D90888242CB749C900DB2226 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D90888252CB749E200DB2226 /* Router.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,17 +483,24 @@
 				D90887FB2CB2084300DB2226 /* Customer.swift in Sources */,
 				D90887BA2CB1FD9F00DB2226 /* AppDelegate.swift in Sources */,
 				D90887F92CB2063E00DB2226 /* Reservation.swift in Sources */,
+				D90888202CB747BE00DB2226 /* HomeDetailsViewController.swift in Sources */,
 				D90888152CB63EF800DB2226 /* CarViewModel.swift in Sources */,
 				D90888092CB20E9200DB2226 /* Branch.swift in Sources */,
 				D908880F2CB222BE00DB2226 /* PaymentViewController.swift in Sources */,
 				D90888132CB62E5400DB2226 /* Cards.swift in Sources */,
 				D90888042CB20DC600DB2226 /* CarsTableViewCell.swift in Sources */,
+				D908881C2CB737F500DB2226 /* FeaturedCollectionViewCell.swift in Sources */,
 				D90887F72CB2062000DB2226 /* Cars.swift in Sources */,
+				D908881E2CB73CFE00DB2226 /* BranchViewModel.swift in Sources */,
+				D90888282CB74C6500DB2226 /* BranchDetailsViewController.swift in Sources */,
+				D90888262CB749E200DB2226 /* Router.swift in Sources */,
 				D90888012CB20DB000DB2226 /* CarsViewController.swift in Sources */,
 				D90887C42CB1FD9F00DB2226 /* RentaCards.xcdatamodeld in Sources */,
+				D90888232CB748A100DB2226 /* UtilsViews.swift in Sources */,
 				D90887BC2CB1FD9F00DB2226 /* SceneDelegate.swift in Sources */,
 				D90888072CB20DF000DB2226 /* ReserTableViewCell.swift in Sources */,
 				D908880C2CB2129000DB2226 /* MapViewController.swift in Sources */,
+				D908881A2CB737D400DB2226 /* ImageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
