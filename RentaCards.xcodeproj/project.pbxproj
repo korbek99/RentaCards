@@ -29,6 +29,7 @@
 		D908880C2CB2129000DB2226 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908880B2CB2129000DB2226 /* MapViewController.swift */; };
 		D908880F2CB222BE00DB2226 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908880E2CB222BE00DB2226 /* PaymentViewController.swift */; };
 		D90888112CB62C1300DB2226 /* PaymentMethodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */; };
+		D90888132CB62E5400DB2226 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888122CB62E5400DB2226 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		D908880B2CB2129000DB2226 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D908880E2CB222BE00DB2226 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCell.swift; sourceTree = "<group>"; };
+		D90888122CB62E5400DB2226 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				D90887F82CB2063E00DB2226 /* Reservation.swift */,
 				D90887FA2CB2084300DB2226 /* Customer.swift */,
 				D90888082CB20E9200DB2226 /* Branch.swift */,
+				D90888122CB62E5400DB2226 /* Cards.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				D90887F92CB2063E00DB2226 /* Reservation.swift in Sources */,
 				D90888092CB20E9200DB2226 /* Branch.swift in Sources */,
 				D908880F2CB222BE00DB2226 /* PaymentViewController.swift in Sources */,
+				D90888132CB62E5400DB2226 /* Cards.swift in Sources */,
 				D90888042CB20DC600DB2226 /* CarsTableViewCell.swift in Sources */,
 				D90887F72CB2062000DB2226 /* Cars.swift in Sources */,
 				D90888012CB20DB000DB2226 /* CarsViewController.swift in Sources */,
