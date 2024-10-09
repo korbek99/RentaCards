@@ -42,7 +42,7 @@ class CarsViewController: UIViewController {
 
 extension CarsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return carViewModel.numberOfCars() // Número de coches según el ViewModel
+        return carViewModel.numberOfCars() 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -60,20 +60,15 @@ extension CarsViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        tableView.deselectRow(at: indexPath, animated: true)
-//        // Aquí puedes manejar la navegación a una pantalla de detalles
-//        let detailsVC = DetailViewController()
-//        let selectedCar = carViewModel.car(at: indexPath.row)
-//        detailsVC.imageString = selectedCar.image
-//        detailsVC.nameString = "\(selectedCar.make) \(selectedCar.model)"
-//        detailsVC.yearString = "\(selectedCar.year)"
-//        detailsVC.priceString = "\(selectedCar.pricePerDay) USD/day"
-//        navigationController?.pushViewController(detailsVC, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
+        let detailsVC = CarDetailViewController()
+        let selectedCar = carViewModel.car(at: indexPath.row)
+        detailsVC.car = selectedCar
+        navigationController?.pushViewController(detailsVC, animated: true)
     }
 
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            // Manejar eliminación de coches
             carViewModel.deleteCar(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .automatic)
         }
