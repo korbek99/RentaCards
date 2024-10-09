@@ -30,6 +30,7 @@
 		D908880F2CB222BE00DB2226 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908880E2CB222BE00DB2226 /* PaymentViewController.swift */; };
 		D90888112CB62C1300DB2226 /* PaymentMethodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */; };
 		D90888132CB62E5400DB2226 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888122CB62E5400DB2226 /* Cards.swift */; };
+		D90888152CB63EF800DB2226 /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888142CB63EF800DB2226 /* CarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		D908880E2CB222BE00DB2226 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		D90888102CB62C1300DB2226 /* PaymentMethodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCell.swift; sourceTree = "<group>"; };
 		D90888122CB62E5400DB2226 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		D90888142CB63EF800DB2226 /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 		D90887ED2CB1FE1300DB2226 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D90888142CB63EF800DB2226 /* CarViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				D90887FB2CB2084300DB2226 /* Customer.swift in Sources */,
 				D90887BA2CB1FD9F00DB2226 /* AppDelegate.swift in Sources */,
 				D90887F92CB2063E00DB2226 /* Reservation.swift in Sources */,
+				D90888152CB63EF800DB2226 /* CarViewModel.swift in Sources */,
 				D90888092CB20E9200DB2226 /* Branch.swift in Sources */,
 				D908880F2CB222BE00DB2226 /* PaymentViewController.swift in Sources */,
 				D90888132CB62E5400DB2226 /* Cards.swift in Sources */,

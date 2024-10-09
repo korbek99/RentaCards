@@ -63,9 +63,24 @@ class CarsTableViewCell: UITableViewCell {
         ])
     }
     
-    public func configureItems(with image: UIImage?, name: String, model: String) { //
-        imgView.image = image
+    public func configureItems(with imageUrl: String, name: String, model: String) {
         nameLabel.text = name
         modelLabel.text = model
+        imgView.image = nil
+
+        guard let url = URL(string: imageUrl) else { return }
+
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            if let error = error {
+                print("Error downloading image: \(error)")
+                return
+            }
+
+            guard let data = data, let image = UIImage(data: data) else { return }
+            DispatchQueue.main.async {
+                self.imgView.image = image
+            }
+        }.resume()
     }
+
 }
