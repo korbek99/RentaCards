@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D90887BA2CB1FD9F00DB2226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887B92CB1FD9F00DB2226 /* AppDelegate.swift */; };
 		D90887BC2CB1FD9F00DB2226 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887BB2CB1FD9F00DB2226 /* SceneDelegate.swift */; };
-		D90887BE2CB1FD9F00DB2226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887BD2CB1FD9F00DB2226 /* ViewController.swift */; };
+		D90887BE2CB1FD9F00DB2226 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887BD2CB1FD9F00DB2226 /* HomeViewController.swift */; };
 		D90887C12CB1FD9F00DB2226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90887BF2CB1FD9F00DB2226 /* Main.storyboard */; };
 		D90887C42CB1FD9F00DB2226 /* RentaCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D90887C22CB1FD9F00DB2226 /* RentaCards.xcdatamodeld */; };
 		D90887C62CB1FDA100DB2226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90887C52CB1FDA100DB2226 /* Assets.xcassets */; };
@@ -17,6 +17,17 @@
 		D90887D42CB1FDA100DB2226 /* RentaCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887D32CB1FDA100DB2226 /* RentaCardsTests.swift */; };
 		D90887DE2CB1FDA100DB2226 /* RentaCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887DD2CB1FDA100DB2226 /* RentaCardsUITests.swift */; };
 		D90887E02CB1FDA100DB2226 /* RentaCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887DF2CB1FDA100DB2226 /* RentaCardsUITestsLaunchTests.swift */; };
+		D90887F72CB2062000DB2226 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887F62CB2062000DB2226 /* Cars.swift */; };
+		D90887F92CB2063E00DB2226 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887F82CB2063E00DB2226 /* Reservation.swift */; };
+		D90887FB2CB2084300DB2226 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887FA2CB2084300DB2226 /* Customer.swift */; };
+		D90887FD2CB20D2B00DB2226 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887FC2CB20D2B00DB2226 /* CarDetailViewController.swift */; };
+		D90887FF2CB20D6B00DB2226 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887FE2CB20D6B00DB2226 /* ReservationViewController.swift */; };
+		D90888012CB20DB000DB2226 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888002CB20DB000DB2226 /* CarsViewController.swift */; };
+		D90888042CB20DC600DB2226 /* CarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888032CB20DC600DB2226 /* CarsTableViewCell.swift */; };
+		D90888072CB20DF000DB2226 /* ReserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888062CB20DF000DB2226 /* ReserTableViewCell.swift */; };
+		D90888092CB20E9200DB2226 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90888082CB20E9200DB2226 /* Branch.swift */; };
+		D908880C2CB2129000DB2226 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908880B2CB2129000DB2226 /* MapViewController.swift */; };
+		D908880F2CB222BE00DB2226 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908880E2CB222BE00DB2226 /* PaymentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +51,7 @@
 		D90887B62CB1FD9F00DB2226 /* RentaCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentaCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90887B92CB1FD9F00DB2226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D90887BB2CB1FD9F00DB2226 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D90887BD2CB1FD9F00DB2226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D90887BD2CB1FD9F00DB2226 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D90887C02CB1FD9F00DB2226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D90887C32CB1FD9F00DB2226 /* RentaCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RentaCards.xcdatamodel; sourceTree = "<group>"; };
 		D90887C52CB1FDA100DB2226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +62,17 @@
 		D90887D92CB1FDA100DB2226 /* RentaCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentaCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90887DD2CB1FDA100DB2226 /* RentaCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentaCardsUITests.swift; sourceTree = "<group>"; };
 		D90887DF2CB1FDA100DB2226 /* RentaCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentaCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D90887F62CB2062000DB2226 /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		D90887F82CB2063E00DB2226 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		D90887FA2CB2084300DB2226 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		D90887FC2CB20D2B00DB2226 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		D90887FE2CB20D6B00DB2226 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		D90888002CB20DB000DB2226 /* CarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
+		D90888032CB20DC600DB2226 /* CarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTableViewCell.swift; sourceTree = "<group>"; };
+		D90888062CB20DF000DB2226 /* ReserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserTableViewCell.swift; sourceTree = "<group>"; };
+		D90888082CB20E9200DB2226 /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		D908880B2CB2129000DB2226 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D908880E2CB222BE00DB2226 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +123,14 @@
 		D90887B82CB1FD9F00DB2226 /* RentaCards */ = {
 			isa = PBXGroup;
 			children = (
+				D90887F02CB1FE6F00DB2226 /* LaunchScreen */,
+				D90887EF2CB1FE5A00DB2226 /* StoryBoard */,
+				D90887EE2CB1FE2D00DB2226 /* Views */,
+				D90887ED2CB1FE1300DB2226 /* ViewModels */,
+				D90887EC2CB1FDE800DB2226 /* Models */,
 				D90887B92CB1FD9F00DB2226 /* AppDelegate.swift */,
 				D90887BB2CB1FD9F00DB2226 /* SceneDelegate.swift */,
-				D90887BD2CB1FD9F00DB2226 /* ViewController.swift */,
-				D90887BF2CB1FD9F00DB2226 /* Main.storyboard */,
 				D90887C52CB1FDA100DB2226 /* Assets.xcassets */,
-				D90887C72CB1FDA100DB2226 /* LaunchScreen.storyboard */,
 				D90887CA2CB1FDA100DB2226 /* Info.plist */,
 				D90887C22CB1FD9F00DB2226 /* RentaCards.xcdatamodeld */,
 			);
@@ -128,6 +152,127 @@
 				D90887DF2CB1FDA100DB2226 /* RentaCardsUITestsLaunchTests.swift */,
 			);
 			path = RentaCardsUITests;
+			sourceTree = "<group>";
+		};
+		D90887EC2CB1FDE800DB2226 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D90887F62CB2062000DB2226 /* Cars.swift */,
+				D90887F82CB2063E00DB2226 /* Reservation.swift */,
+				D90887FA2CB2084300DB2226 /* Customer.swift */,
+				D90888082CB20E9200DB2226 /* Branch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D90887ED2CB1FE1300DB2226 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D90887EE2CB1FE2D00DB2226 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D908880D2CB222AD00DB2226 /* Pay */,
+				D908880A2CB2127A00DB2226 /* Map */,
+				D90887F32CB1FEA800DB2226 /* Reservation */,
+				D90887F22CB1FE9A00DB2226 /* Cars */,
+				D90887F12CB1FE9300DB2226 /* Home */,
+				D90887BD2CB1FD9F00DB2226 /* HomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D90887EF2CB1FE5A00DB2226 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D90887BF2CB1FD9F00DB2226 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D90887F02CB1FE6F00DB2226 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D90887C72CB1FDA100DB2226 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		D90887F12CB1FE9300DB2226 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D90887F52CB1FED900DB2226 /* Cells */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D90887F22CB1FE9A00DB2226 /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				D90888022CB20DB500DB2226 /* Cells */,
+				D90887F42CB1FECC00DB2226 /* Details */,
+				D90888002CB20DB000DB2226 /* CarsViewController.swift */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+		D90887F32CB1FEA800DB2226 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				D90888052CB20DD700DB2226 /* Cells */,
+				D90887FE2CB20D6B00DB2226 /* ReservationViewController.swift */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		D90887F42CB1FECC00DB2226 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D90887FC2CB20D2B00DB2226 /* CarDetailViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		D90887F52CB1FED900DB2226 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D90888022CB20DB500DB2226 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D90888032CB20DC600DB2226 /* CarsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D90888052CB20DD700DB2226 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D90888062CB20DF000DB2226 /* ReserTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D908880A2CB2127A00DB2226 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D908880B2CB2129000DB2226 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		D908880D2CB222AD00DB2226 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				D908880E2CB222BE00DB2226 /* PaymentViewController.swift */,
+			);
+			path = Pay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +406,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90887BE2CB1FD9F00DB2226 /* ViewController.swift in Sources */,
+				D90887FD2CB20D2B00DB2226 /* CarDetailViewController.swift in Sources */,
+				D90887BE2CB1FD9F00DB2226 /* HomeViewController.swift in Sources */,
+				D90887FF2CB20D6B00DB2226 /* ReservationViewController.swift in Sources */,
+				D90887FB2CB2084300DB2226 /* Customer.swift in Sources */,
 				D90887BA2CB1FD9F00DB2226 /* AppDelegate.swift in Sources */,
+				D90887F92CB2063E00DB2226 /* Reservation.swift in Sources */,
+				D90888092CB20E9200DB2226 /* Branch.swift in Sources */,
+				D908880F2CB222BE00DB2226 /* PaymentViewController.swift in Sources */,
+				D90888042CB20DC600DB2226 /* CarsTableViewCell.swift in Sources */,
+				D90887F72CB2062000DB2226 /* Cars.swift in Sources */,
+				D90888012CB20DB000DB2226 /* CarsViewController.swift in Sources */,
 				D90887C42CB1FD9F00DB2226 /* RentaCards.xcdatamodeld in Sources */,
 				D90887BC2CB1FD9F00DB2226 /* SceneDelegate.swift in Sources */,
+				D90888072CB20DF000DB2226 /* ReserTableViewCell.swift in Sources */,
+				D908880C2CB2129000DB2226 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
