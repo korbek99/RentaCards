@@ -61,7 +61,7 @@ extension CarsViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        let detailsVC = CarDetailViewController()
+        let detailsVC = HomeDetailsViewController()
         let selectedCar = carViewModel.car(at: indexPath.row)
         detailsVC.car = selectedCar
         navigationController?.pushViewController(detailsVC, animated: true)
