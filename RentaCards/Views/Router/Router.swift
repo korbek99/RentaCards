@@ -34,6 +34,12 @@ class Router {
         navigationController?.pushViewController(ViewController, animated: true)
     }
     
+    func showrentacar(cars: Car){
+        let ViewController = ReservationViewController()
+        ViewController.car = cars
+        navigationController?.pushViewController(ViewController, animated: true)
+    }
+    
     func navigateToConfig() {
 //        let nextViewController = ConfigViewController()
 //        navigationController?.pushViewController(nextViewController, animated: true)

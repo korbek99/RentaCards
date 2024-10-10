@@ -79,7 +79,7 @@ class BranchDetailsViewController: UIViewController {
             carImageView.widthAnchor.constraint(equalToConstant: 300),
             
             makeLabel.topAnchor.constraint(equalTo: carImageView.bottomAnchor, constant: 20),
-            makeLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            makeLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
             
             modelLabel.topAnchor.constraint(equalTo: makeLabel.bottomAnchor, constant: 10),
             modelLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
@@ -98,7 +98,7 @@ class BranchDetailsViewController: UIViewController {
     private func displayCarDetails() {
         guard let bran = branch else { return }
         carImageView.loadImage(from: bran.image)
-        makeLabel.text = "Name: \(bran.name)"
+        makeLabel.text = "\(bran.name)"
     }
     
     @objc private func openMap() {
